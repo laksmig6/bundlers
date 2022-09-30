@@ -1,0 +1,12 @@
+{
+  "name": "parcel-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html"
+  },
+  "keywords": [],
+  "author": "lakshmig <lakshmig@Thoughtworks.com>",
+  "license": "MIT"
+}
