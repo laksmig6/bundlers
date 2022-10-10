@@ -1,6 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
+import App from "./app";
 
-const App = () => <div>Parcel Message</div>;
+const root = ReactDOM.createRoot(document.getElementById("app"));
 
-ReactDOM.render(<App />, document.getElementById("app"));
+root.render(
+  <>
+    <App />
+  </>
+);

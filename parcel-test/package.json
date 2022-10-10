@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npx parcel build index.html",
     "start": "npx parcel index.html"
   },
   "keywords": [],
   "author": "lakshmig <lakshmig@Thoughtworks.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
 }

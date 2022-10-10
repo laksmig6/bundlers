@@ -470,6 +470,8 @@ function checkDCE() {
 });
 
 var App = function App() {
+  return /*#__PURE__*/react.createElement("div", null, "Rollup Message1");
 };
 
-reactDom.render( /*#__PURE__*/react.createElement(App, null), document.getElementById("app"));
+var root = reactDom.createRoot(document.getElementById("app"));
+root.render( /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(App, null)));
